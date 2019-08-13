@@ -38,7 +38,7 @@ class Main extends Component {
     } = this.state;
     return (
       <Container>
-        <img src={logo} alt="Github Compare" />
+        <img src={logo} alt="Lista Produtos" />
 
         <Form withError={repositoryError} onSubmit={this.handleAddReposiotry}>
           <input
